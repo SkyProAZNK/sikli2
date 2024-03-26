@@ -8,7 +8,6 @@ public class Main {
         int total = 0;
         int mounts = 0;
         while (total <= 2_459_000) {
-            total += total / 100;
             total += deposit;
             mounts += +1;
             System.out.println("Месяц " + mounts + ", сумма накоплений равна " + total + " рублей");
